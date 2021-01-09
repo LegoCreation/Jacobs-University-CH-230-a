@@ -1,0 +1,8 @@
+If we remove the using namespace std C++ cannot identify to which class
+does the cout, cin and other functions belong. We can also define using
+std::(func name) eg std::cout because we are now defining that the cout
+belongs to class std.
+
+There could be manny classes in C++ so removing Critter:: will lead
+to confusing to C++. The possible solution could
+be difing the method within the declaration of the header file.
